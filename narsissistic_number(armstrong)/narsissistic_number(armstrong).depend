@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763582619 source:c:\users\ibrah\onedrive\desktop\c projects\tutorial\narsissistic_number(armstrong)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
