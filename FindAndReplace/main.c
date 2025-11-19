@@ -7,12 +7,14 @@ void replaceWordInFile(const char *filename, const char *oldWord, const char *ne
     FILE *f2 = fopen("temp.txt", "w");
     char w[100];
 
+    // check null
     if (f == NULL || f2 == NULL) {
         printf("Error opening file!\n");
         exit(1);
     }
 
-    while (fscanf(f, "%s", w) != EOF) {
+    // read every single word
+    while (fscanf(f, "%s", w) != EOF) { // EOF refers to end of file
         if (strcmp(w, oldWord) == 0)
             fprintf(f2, "%s ", newWord);
         else
@@ -32,6 +34,7 @@ void replaceWordInFile(const char *filename, const char *oldWord, const char *ne
 
     fclose(f);
     fclose(f2);
+    scanf("%*s");
     remove("temp.txt");
 }
 

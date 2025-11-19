@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763482087 source:c:\users\ibrah\onedrive\desktop\c projects\algorithms\findandreplace\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
