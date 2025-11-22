@@ -36,6 +36,7 @@ void replaceWordInFile(const char *filename, const char *oldWord, const char *ne
     fclose(f2);
     scanf("%*s");
     remove("temp.txt");
+    printf("Replacement done successfully.\n");
 }
 
 int main() {
@@ -49,8 +50,6 @@ int main() {
     scanf("%s", cword);
 
     replaceWordInFile("file.txt", word, cword);
-
-    printf("Replacement done successfully.\n");
     goto start;
     return 0;
 }

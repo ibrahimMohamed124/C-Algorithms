@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763830957 source:c:\users\ibrah\onedrive\desktop\c projects\algorithms\reorder_digits_in_descending_order\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
