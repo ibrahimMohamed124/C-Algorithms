@@ -23,13 +23,15 @@ bool canMakeArithmeticProgression(int* arr, int arrSize) {
 }
 
 int main() {
-    int arr1[] = {3, 5, 1};
+    int arr1[] = {1,2,3,4,5,6,7,12,8};
     int len1 = sizeof(arr1) / sizeof(arr1[0]);
     printf("Result 1: %d\n", canMakeArithmeticProgression(arr1, len1));
 
-    int arr2[] = {1, 2, 4};
+    int arr2[] = {1, 2, 3};
     int len2 = sizeof(arr2) / sizeof(arr2[0]);
     printf("Result 2: %d\n", canMakeArithmeticProgression(arr2, len2));
 
     return 0;
 }
+
+

@@ -16,7 +16,7 @@ int main()
         digit++;
         number /= 10;
     }
-
+    
     number = original;
 
     while (number != 0) {
