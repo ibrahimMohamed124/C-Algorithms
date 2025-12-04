@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1764851992 source:c:\users\ibrah\onedrive\desktop\c projects\tutorial\linear_equations\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
