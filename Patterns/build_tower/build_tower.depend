@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1765036914 source:c:\users\ibrah\onedrive\desktop\c projects\algorithms\patterns\build_tower\main.c
+	<stdio.h>
+	<stdlib.h>
+
